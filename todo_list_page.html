@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            Todo List by Eugene
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+
+        <div id="todoPage" class="wrapper" theme="light">
+
+            <div class="inner-page"> 
+
+                <header>Todo list by Eugene Zolotaiko</header>
+
+                <div class="input-section">
+                    <input id="inputTask" class="add-task" name="task" placeholder="Enter your new task here">
+                    <button id="addButton"onclick="addTaskToList()">&#10010</button>
+                    <button id="switchButton" onclick="switchMode()">&#9789   </button>
+                </div>
+    
+                <div id="listSection" class="list">
+                </div>
+
+                <div id="foot section" class="foot">
+                    <label id="footLabel">you have 0 tasks to do</label>
+                    <button onclick="clearAll()">Clear all</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
